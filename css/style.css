@@ -82,3 +82,26 @@ main{
 .article_list ul{
     padding: 1rem;
 }
+
+/* --------- article table style --------- */
+.article_table thead{
+    background-color: #20A9E5;
+    color: white;
+}
+
+.article_table thead th{
+    text-align: left;
+}
+
+.article_table .first_column,
+.article_table .second_column{
+    width: 25%;
+}
+
+.article_table *{
+    border-collapse: collapse;
+}
+
+.article_table tbody tr:nth-child(odd){
+    background-color:  #B1E5F2;
+}

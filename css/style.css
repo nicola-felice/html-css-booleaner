@@ -10,6 +10,7 @@ body{
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
+    font-size: 1.15rem;
 }
 
 
@@ -100,8 +101,42 @@ main{
 
 .article_table *{
     border-collapse: collapse;
+    margin-bottom: 1.5rem;
 }
 
 .article_table tbody tr:nth-child(odd){
     background-color:  #B1E5F2;
+}
+
+
+/* ------------------
+    footer style
+    ----------------- */
+
+footer{
+    margin: 2rem 0;
+}
+
+footer h3{
+    color: rgb(138, 138, 138);
+}
+
+footer .suggested_article{
+    background-size: cover;
+    width: 320px; height: 210px;
+
+    margin: .5rem 0;
+    padding: 1rem;
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+footer .img1{
+    background-image: url("../img/monitor.jpg");
+}
+
+footer .img2{
+    background-image: url("../img/graph.jpg");
 }

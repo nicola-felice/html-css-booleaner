@@ -8,9 +8,10 @@ body{
 
 .container{
     width: 80%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
 }
+
 
 /* ------------------
     header style
@@ -21,7 +22,7 @@ header{
     background-image: url("../img/pattern.png");
     background-size: 37.5%;
     background-position: top right;
-    
+
     padding-top: 2.5rem;
     padding-left: .5rem;
 }
@@ -30,3 +31,9 @@ header .logo{
     width: 20%;
     min-width: 125px;
 }
+
+
+/* ------------------
+    main style
+    ----------------- */
+

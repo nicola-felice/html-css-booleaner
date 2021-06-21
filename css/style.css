@@ -61,3 +61,24 @@ main{
     color:  rgb(91, 192, 255);
     font-style: normal;
 }
+
+/* --------- article images style --------- */
+.article_images{
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: .5rem;
+}
+
+.article_images .images_info{
+    font-size: .75rem;
+}
+
+/* --------- article paragraph style --------- */
+.article_paragraph span{
+    background-color: yellow;
+}
+
+/* --------- article list style --------- */
+.article_list ul{
+    padding: 1rem;
+}
